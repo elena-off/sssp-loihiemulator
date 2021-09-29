@@ -21,3 +21,7 @@ Solution to SSSP in form of a list of shortest paths from node 0 to each node wi
 9. {'num_nodes': 6, 'edge_tuples': [(0, 1), (0, 3), (0, 5), (1, 2), (1, 4), (2, 3), (4, 5)], 'costs_edges': array([10,  8,  8,  8,  2,  7,  3], dtype=uint8), 'num_bits': 6}
 10. {'num_nodes': 7, 'edge_tuples': [(0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 3), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6), (4, 5), (4, 6), (5, 6)], 'costs_edges': array([ 4,  7,  2, 10,  9,  7, 10,  8,  6,  6,  1,  7,  7,  8,  3,  6,  2,
         5,  6,  3,  5], dtype=uint8), 'num_bits': 7}
+
+
+## Random Graph Generator
+The random graph generator can be used to produce more random graph dictionaries such as the ones above. It also calculates and outputs the solutions to the SSSP as calculated using the Dijkstra algorithm.
