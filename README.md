@@ -1,5 +1,5 @@
 # SSSP Loihi Emulator
-Solution for the SSSP as proposed by Aimone et all, implemented on the Brian2Loihi Emulator (https://github.com/sagacitysite/brian2_loihi) 
+Solution for the SSSP as proposed by Aimone et al, implemented on the Brian2Loihi Emulator (https://github.com/sagacitysite/brian2_loihi) 
 
 ## Usage
 Install Brian2Loihi as described on the github page (https://github.com/sagacitysite/brian2_loihi) as well as brian2 (pip install brian2)
