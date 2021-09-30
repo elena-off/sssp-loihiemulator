@@ -1,4 +1,6 @@
 import PathFinding
+from time import *
+import numpy as np
 
 #example graph as input
 graph_info = {"num_nodes": 4, "num_bits":4, "edge_tuples":  [(0,1),(0,2),(0,3),(1,3),(2,3)], "costs_edges": np.array([1, 1, 5, 3, 2],dtype=np.uint8) }
