@@ -2,7 +2,7 @@ from brian2 import *
 prefs.codegen.target = 'numpy'  # use the Python fallback
 import numpy as np
 from brian2_loihi import *
-from time import *
+
 
 class PathFinding():
 
