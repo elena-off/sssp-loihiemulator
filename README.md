@@ -24,4 +24,4 @@ Solution to SSSP in form of a list of shortest paths from node 0 to each node wi
 
 
 ## Random Graph Generator
-The random graph generator can be used to produce more random graph dictionaries such as the ones above. It also calculates and outputs the solutions to the SSSP as calculated using the Dijkstra algorithm.
+The random graph generator can be used to produce more random graph dictionaries such as the ones above. It also calculates and outputs the solutions to the SSSP as calculated using the Dijkstra algorithm. For it to run, networkx (pip install networkx) needs to be installed.
