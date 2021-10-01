@@ -4,7 +4,7 @@ Solution for the SSSP as proposed by Aimone et al, implemented on the Brian2Loih
 ## Usage
 Install Brian2Loihi as described on the github page (https://github.com/sagacitysite/brian2_loihi) as well as brian2 (pip install brian2)
 
-Replace input graph with own dictionary describing a graph, examples see below.
+Replace input graph in ExampleUsage with own dictionary describing a graph, examples see below.
 
 Solution to SSSP in form of a list of shortest paths from node 0 to each node will be the output.
 
