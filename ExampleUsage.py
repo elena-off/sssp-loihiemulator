@@ -1,4 +1,4 @@
-import PathFinding
+from EmulatorNetwork import PathFinding
 from time import *
 import numpy as np
 
@@ -23,7 +23,7 @@ for i in range(len(network.output_monitors)):
     times, index= np.unique(network.output_monitors[i].t,return_index=True)
     if times.size == 0:
         network_distances.append(0)
-    valuelist = split(network.output_monitors[i].i,index)
+    valuelist = np.split(network.output_monitors[i].i,index)
     k = -1
     for values in valuelist:
         if values.size >0:
